@@ -1,0 +1,131 @@
+
+
+
+
+
+
+ul
+{
+    position: absolute;
+   
+    margin:0;
+    padding: 20px 0;
+    transform:translate(-50%,-50%);
+    background: rgb(49, 48, 48);
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    padding-top: 0px;top: 40px;left: 670px;width: 1330px;height: 65px;
+
+}
+    ul li
+    {
+
+list-style: none;
+text-align: center;
+display: block;
+    }
+    ul li :last-child{
+        border-right: none;
+
+
+
+    }
+    ul li a
+    {
+
+
+        text-decoration: none;
+        padding:  0  900px;
+        padding-right: 0px;
+        display:block;
+        height: 50px;
+
+    }
+    ul li a .icon 
+    {
+        width: 40px;
+        height:36px;
+        text-align:center;
+        background: rgb(49, 48, 48);
+        overflow: hidden;
+        margin:5px auto 0px;
+ }
+        ul li a .icon .fa
+        { 
+            width:100%;
+            height:100%;
+            line-height:40px;
+            font-size:34px;
+            transition:0.5s;
+            color:rgb(6, 194, 241);
+        }
+             ul li a :hover.icon .fa{ 
+                 transform: translateY(-100%);}
+                 ul li a .icon .fa:last-child
+                 { 
+    color: white;
+                 }
+
+
+                 ul li a .name{
+                position: relative;
+                height: 30px;
+                width: 100%;
+                display: block;
+                font-family: 'Times New Roman', Times, serif;
+                overflow: hidden;
+
+                 }      
+
+                 ul li a .name span {
+                     display: block;
+                     position: relative;
+                     font-size :18px;
+                     line-height: 20px;
+                     transition:0.5s;
+                     color:rgb(20, 224, 224);
+
+                    }
+
+                 ul li a .name span:before {
+                     content:attr(data-text);
+                     position:absolute;
+                     top:-100%;
+                     left: 0;
+                     height: 100%;
+                     width: 100%;
+                    color:white;
+
+                 }
+                 ul li a:hover .name span {
+                     transform :translateY(30px); 
+                    }
+
+
+
+                   .logo img{
+                        position: absolute;
+                        margin-top: 10px;
+                        margin-left: 30px;
+                        height: 50px;
+                    
+                    }
+
+                  .logo header{
+                    padding-left: 100px;
+                    padding-top: 0px;
+                    font-family:fantasy;	
+                    font-style: oblique;
+                    font-weight: 300;
+                    font-size: 20px;
+                    color: white;
+
+                }
+
+
+                .logo header h5{                 
+                       margin-bottom: 0px;
+                       padding-top: 6px;
+
+                    }
